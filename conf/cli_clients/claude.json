@@ -1,8 +1,11 @@
 {
-  "name": "gemini",
-  "command": "gemini",
+  "name": "claude",
+  "command": "claude",
   "additional_args": [
-    "--yolo"
+    "--permission-mode",
+    "acceptEdits",
+    "--model",
+    "sonnet"
   ],
   "env": {},
   "roles": {
